@@ -52,4 +52,4 @@ Plugins are compiled into Vencord, so you need to build it from source.
 
 ## License
 
-GPL-3.0-or-later. See `LICENSE`. Original work Copyright (c) 2023 Vendicated and contributors; modifications Copyright (c) 2026 julia.
+GPL-3.0-or-later. See `LICENSE`. Original work Copyright (c) 2023 Vendicated and contributors; Modifications Copyright (c) 2026 Ayush Raj.
