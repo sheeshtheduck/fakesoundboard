@@ -1,4 +1,4 @@
-# FakeSoundboard (updated)
+# FakeSoundboard (Updated)
 
 A [Vencord](https://github.com/Vendicated/Vencord) plugin that unlocks the Discord soundboard UI and plays soundboard sounds into your voice call. Updated and rewritten to work with current Discord builds. Tested on Vesktop.
 
@@ -29,16 +29,20 @@ Plugins are compiled into Vencord, so you need to build it from source.
 
 1. Install Node.js and pnpm.
 2. Clone Vencord and install dependencies:
-   ```
+
+   ```bash
    git clone https://github.com/Vendicated/Vencord
    cd Vencord
    pnpm install --frozen-lockfile
    ```
+
 3. Create `src/userplugins/fakeSoundboard/` and put `index.ts` in it.
 4. Build:
-   ```
+
+   ```bash
    pnpm build --dev
    ```
+
 5. In Vesktop, open Settings → Vesktop → Developer Options → **Vencord Location** → Change, and select the `dist` folder of your clone.
 6. Fully quit and reopen Vesktop, then enable **FakeSoundboard** in Vencord → Plugins.
 
@@ -52,4 +56,8 @@ Plugins are compiled into Vencord, so you need to build it from source.
 
 ## License
 
-GPL-3.0-or-later. See `LICENSE`. Original work Copyright (c) 2023 Vendicated and contributors; Modifications Copyright (c) 2026 Ayush Raj.
+GPL-3.0-or-later. See [LICENSE](LICENSE).
+
+Original work Copyright (c) 2023 Vendicated and contributors.
+
+Modifications Copyright (c) 2026 Ayush Raj.
